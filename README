@@ -1,0 +1,23 @@
+dear professor if anything wrong with the codes in the reposite here is the drive link you will find everything
+https://drive.google.com/drive/folders/1oRrcYnZ6zfUlHrbjydo_cxXzBPgTkPMU?usp=sharing
+thank you
+
+
+
+POS and NER Tagging on Movie Script Dataset
+This project implements Part-of-Speech (POS) and Named Entity Recognition (NER) tagging pipelines on a curated movie script dataset. It leverages classical models (HMM, CRF, Averaged Perceptron) and transformer-based architectures (BiLSTM, BERT) to benchmark tagging performance across different linguistic and semantic layers.
+
+ Dataset
+- Source: Parsed movie/TV script dialogue
+- Format: Tokenized sentences with optional BIO-tagged labels
+- Languages: English (multilingual support planned)
+- Entities: PERSON, ORG, LOC, TIME, PRODUCT, etc.
+
+ Models Used
+Task   |  Classical Models     |Deep Learning  |Transformers   
+POS    |  HMM, CRF,            |BiLSTM         |BERT (bert-base-cased)  
+NER    |  MEMM,avg Perceptron  |BiGRU          |BERT (fine-tuned) 
+
+
+
+
